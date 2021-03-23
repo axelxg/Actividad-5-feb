@@ -1,0 +1,69 @@
+*{
+    text-align: center;
+}
+body{
+    width: 1200px;
+    height: 1200px;
+}
+header{
+    width: 1200px;
+    height: 250px;
+    background-color: yellow;
+}
+nav{
+    width: 1200px;
+    height: 100px;
+    background-color: #d1f7d1;
+}
+main{
+    width: 1200px;
+    height: 500px;
+    background-color: #f9e4b2;
+}
+div{
+    width: 1200px;
+    height: 250px;
+    background-color: lightblue;
+}
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+}
+nav section{
+    width: 33.3%;
+    height: 100px;
+    float: left;
+}
+section#pagina1{
+    background-color: #d1f7d1;
+}
+section#pagina2{
+    background-color:  #d1f7d1 ;
+}
+section#pagina3{
+    background-color:  #81bbf7 ;
+}
+main section#izquierda{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #f9e4b2;
+}
+main aside#derecha{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: orange;
+}
+div section{
+    width: 16.66%;
+    height: 250px;
+    float: left;
+}
+div section.s1{
+    background-color:#d0d9ff ;
+}
+div section.s2{
+    background-color: #81bbf7;
+}

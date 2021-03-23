@@ -1,0 +1,43 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-template-rows: 250px 100px 500px 250px 100px;
+    text-align: center;
+}
+header{
+    grid-column: 1 / span 6;
+    background-color: yellow;
+}
+#pag1{
+    grid-column: 1 / span 2;
+    background-color: #d1f7d1;
+    padding-top: 50px;
+}
+#pag2{
+    grid-column: 3 / span 2;
+    background-color: #d0d9ff;
+    padding-top: 50px;
+}
+#pag3{
+    grid-column: 5 / span 2;
+    background-color: #81bbf7;
+    padding-top: 50px;
+}
+#sect1{
+    grid-column: 1 / span 3;
+    background-color: #f9e4b2;
+}
+#sect2{
+    grid-column: 4 / span 3;
+    background-color: orange;
+}
+.color1{
+    background-color: #d0d9ff;
+}
+.color2{
+    background-color: #81bbf7;
+}
+footer{
+    grid-column: 1  / span 6;
+    background-color: black;
+}

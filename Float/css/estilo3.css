@@ -1,0 +1,91 @@
+*{
+    text-align: center;
+}
+body{
+    width: 900px;
+    height: 1450px;
+}
+header{
+    width: 900px;
+    height: 200px;
+    background-color: lightblue;
+}
+nav{
+    width: 900px;
+    height: 300px;
+    background-color: black;
+}
+main{
+    width: 900px;
+    height: 400px;
+    background-color: red;
+}
+div{
+    width: 900px;
+    height: 200px;
+    background-color: lightgreen;
+}
+section#section2{
+    width: 900px;
+    height: 150px;
+    background-color:  #FFC300;
+}
+footer{
+    width: 900px;
+    height: 200px;
+    background-color: lightblue;
+}
+header section{
+    width: 11.11%;
+    height: 200px;
+    float: left;
+}
+nav section{
+    width: 66.6%;
+    height: 300px;
+    float: left;
+}
+nav aside{
+    width: 33.4%;
+    height: 300px;
+    float: left;
+    background-color: #FFC300 ;
+}
+main section#msection1{
+    width: 44.4%;
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+main section#msection2{
+    width: 55.6%;
+    height: 400px;
+    background-color:#3b69ce ;
+    float: left;
+}
+section#section2 section{
+    width: 33.33%;
+    height: 150px;
+    float: left;
+}
+
+footer section{
+    width: 11.11%;
+    height: 200px;
+    float: left;
+}
+.celeste{
+    background-color: #3b69ce;
+}
+.rojo{
+    background-color: red;
+}
+.gris{
+    background-color: gray;
+}
+.snegro{
+    background-color:black ;
+}
+.samarillo{
+    background-color:#FFC300 ;
+}

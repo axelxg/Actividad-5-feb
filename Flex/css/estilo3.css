@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+header{
+    display: flex;
+    width: 900px;
+    height: 200px;   
+}
+nav{
+    display: flex;
+    width: 900px;
+    height: 300px;
+}
+main{
+    display: flex;
+    width: 900px;
+    height: 400px;
+}
+div{
+    width: 900px;
+    height: 200px;
+    background-color: lightgreen;
+}
+footer{
+    display: flex;
+    width: 900px;
+    height: 200px;
+}
+#seccion2{
+    display: flex;
+    width: 900px;
+    height: 150px;
+}
+section>section{
+    min-width: 33.3%; flex:1;
+    background-color:#FFC300;
+}
+section>article{
+    min-width: 33.3%;
+    background-color:black;
+}
+section>aside{
+    min-width: 33.3%;
+    background-color:#FFC300;
+}
+main>section{
+    min-width: 44.4%; flex:1;
+    background-color:red;
+}
+main>aside{
+    min-width: 55.6%;
+    background-color: #3b69ce;
+}
+nav>section{
+    min-width: 66.6%; flex:1;
+    background-color:black;
+}
+nav>aside{
+    min-width: 33.4%;
+    background-color:#FFC300;
+}
+header>section.celeste{
+    min-width: 11.1%; flex:1;
+    background-color: #3b69ce;
+}
+header>section.rojo{
+    min-width: 11.1%; 
+    background-color:red;
+}
+header>section.gris{
+    min-width: 11.1%; 
+    background-color:gray;
+}
+footer>section.celeste{
+    min-width: 11.1%; flex:1;
+    background-color: #3b69ce;
+}
+footer>section.rojo{
+    min-width: 11.1%; 
+    background-color:red;
+}
+footer>section.gris{
+    min-width: 11.1%; 
+    background-color:gray;
+}
